@@ -15,8 +15,3 @@ jobs:
     run: npx Playwright Install --with-deps
   - name: Run your tests
   run: npx playwright test tests/home.spec.ts
-  
-  
-
-
-  
