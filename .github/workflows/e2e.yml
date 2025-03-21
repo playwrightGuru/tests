@@ -10,7 +10,7 @@ jobs:
       with:
        node-version: '14'
     - name: Install dependencies
-      run: nmp ci
+      run: npm ci
     - name: Install Playwright
       run: npx Playwright install --with-deps
     - name: Run your tests
