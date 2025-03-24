@@ -20,7 +20,7 @@ test.beforeEach(async ({ page }) => {
         //await homePage.navigate();
 
         //verify title
-      await expect(page).toHaveTitle('Practice E-Commerce Site – SDET Unicorns');
+      expect(page).toHaveTitle('Practice E-Commerce Site – SDET Unicorns');
         
     })
 
