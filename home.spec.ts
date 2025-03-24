@@ -7,7 +7,7 @@ test.describe('Home', () => {
 
 test.beforeEach(async ({ page }) => {
     homePage = new HomePage (page);
-   await homePage.navigate();
+    await homePage.navigate();
     
 })
 
