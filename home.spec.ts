@@ -49,7 +49,7 @@ test.beforeEach(async ({ page }) => {
             //click the button
             //await page.locator('#get-started').click();
 
-            await homePage.getStartedBtn.click();
+             await homePage.getStartedBtn.click();
     
             
             
@@ -74,7 +74,7 @@ test.beforeEach(async ({ page }) => {
                     //verify heading text is visible
                     //await expect(page).toHaveURL ('https://practice.sdetunicorns.com/#get-started');
                     await expect(headingText).not.toBeHidden();
-                    await expect(headingText).toBeVisible ();
+                     expect(headingText).toBeVisible ();
                     
                         })
 
