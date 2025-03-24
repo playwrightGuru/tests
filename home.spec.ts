@@ -73,8 +73,9 @@ test.beforeEach(async ({ page }) => {
                     
                     //verify heading text is visible
                     //await expect(page).toHaveURL ('https://practice.sdetunicorns.com/#get-started');
+                    
                     await expect(headingText).not.toBeHidden();
-                   await expect(headingText).toBeVisible ();
+                    await expect(headingText).toBeVisible ();
                     
                         })
 
