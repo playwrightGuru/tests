@@ -108,7 +108,7 @@ test.beforeEach(async ({ page }) => {
              //find contact icon
              //const homeText = await page.locator('#zak-primary-menu >> text=Home');
              //const contactIcon = await page.locator('//ul[@id="zak-primary-menu"]//a[@href="https://practice.sdetunicorns.com/contact/"]');
-            const contactIcon = await homePage.contactIcon;      
+            //const contactIcon = await homePage.contactIcon;      
                                     
              //verify contact icon is visible
             await expect(contactIcon).toBeVisible();
