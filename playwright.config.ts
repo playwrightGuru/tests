@@ -42,7 +42,7 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'], headless: false },
+      use: { ...devices['Desktop Chrome'], headless: false, executable path: "./Applications/Chromium.app" },
       //baseURL: 'https://practice.sdetunicorns.com/',
 
     },
