@@ -94,7 +94,7 @@ test.beforeEach(async ({ page }) => {
                  
                             
                             //verify home text is enabled
-                            await expect(homeText).toBeEnabled();
+                         await expect(homeText).toBeEnabled();
                             
                                 })
 
