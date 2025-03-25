@@ -111,7 +111,7 @@ test.beforeEach(async ({ page }) => {
             const contactIcon = await homePage.contactIcon;      
                                     
              //verify contact icon is visible
-            await expect(contactIcon).toBeVisible();
+          await expect(contactIcon).toBeVisible();
                                     
             })
         
